@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealmDemoTests/RealmDemoTests.m"
+            timestampString = "505043868.279939"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-testWriteAction"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealmDemoTests/RealmDemoTests.m"
+            timestampString = "505043868.279939"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "-testDelete"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RealmDemoTests testDelete]"
+                  moduleName = "RealmDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rayTao/Developer/LearnCode/RealmDemo/RealmDemoTests/RealmDemoTests.m"
+                  timestampString = "505042660.361793"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "810">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RealmDemoTests testDelete]"
+                  moduleName = "RealmDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rayTao/Developer/LearnCode/RealmDemo/RealmDemoTests/RealmDemoTests.m"
+                  timestampString = "505042660.365693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "2155">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RealmDemoTests testDelete]"
+                  moduleName = "RealmDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rayTao/Developer/LearnCode/RealmDemo/RealmDemoTests/RealmDemoTests.m"
+                  timestampString = "505042660.368122"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "2358">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RealmDemoTests testDelete]"
+                  moduleName = "RealmDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rayTao/Developer/LearnCode/RealmDemo/RealmDemoTests/RealmDemoTests.m"
+                  timestampString = "505042660.370305"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "2486">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

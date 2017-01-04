@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E419BE9D1E14B01800467023 /* RLMRealm+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = E419BE9C1E14B01800467023 /* RLMRealm+Help.m */; };
+		E431B0DF1E157C1A00C6ED88 /* RLMResults+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = E431B0DE1E157C1A00C6ED88 /* RLMResults+Help.m */; };
+		E4B211F31E1CC9D600EAF7CB /* RLMObject+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B211F21E1CC9D600EAF7CB /* RLMObject+MJExtension.m */; };
 		E4DE95121E13B74D0004929F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE95111E13B74D0004929F /* main.m */; };
 		E4DE95151E13B74D0004929F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE95141E13B74D0004929F /* AppDelegate.m */; };
 		E4DE95181E13B74D0004929F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE95171E13B74D0004929F /* ViewController.m */; };
@@ -15,6 +18,10 @@
 		E4DE95201E13B74D0004929F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DE951E1E13B74D0004929F /* LaunchScreen.storyboard */; };
 		E4DE952B1E13B74D0004929F /* RealmDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE952A1E13B74D0004929F /* RealmDemoTests.m */; };
 		E4DE95361E13B74D0004929F /* RealmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE95351E13B74D0004929F /* RealmDemoUITests.m */; };
+		E4DE954A1E13B7C30004929F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DE95491E13B7C30004929F /* Realm.framework */; };
+		E4DE954B1E13B7C30004929F /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4DE95491E13B7C30004929F /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4DE95521E13BAB70004929F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE95511E13BAB70004929F /* Person.m */; };
+		E4DE95551E13BD210004929F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE95541E13BD210004929F /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E4DE954C1E13B7C30004929F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4DE954B1E13B7C30004929F /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E419BE9B1E14B01800467023 /* RLMRealm+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMRealm+Help.h"; sourceTree = "<group>"; };
+		E419BE9C1E14B01800467023 /* RLMRealm+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMRealm+Help.m"; sourceTree = "<group>"; };
+		E431B0DD1E157C1A00C6ED88 /* RLMResults+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMResults+Help.h"; sourceTree = "<group>"; };
+		E431B0DE1E157C1A00C6ED88 /* RLMResults+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMResults+Help.m"; sourceTree = "<group>"; };
+		E4B211F11E1CC9D600EAF7CB /* RLMObject+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+MJExtension.h"; sourceTree = "<group>"; };
+		E4B211F21E1CC9D600EAF7CB /* RLMObject+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+MJExtension.m"; sourceTree = "<group>"; };
 		E4DE950D1E13B74D0004929F /* RealmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DE95111E13B74D0004929F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4DE95131E13B74D0004929F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,11 @@
 		E4DE95311E13B74D0004929F /* RealmDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DE95351E13B74D0004929F /* RealmDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmDemoUITests.m; sourceTree = "<group>"; };
 		E4DE95371E13B74D0004929F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DE95491E13B7C30004929F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		E4DE95501E13BAB70004929F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E4DE95511E13BAB70004929F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E4DE95531E13BD210004929F /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		E4DE95541E13BD210004929F /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DE954A1E13B7C30004929F /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E419BE9A1E14AFFB00467023 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				E4B211F11E1CC9D600EAF7CB /* RLMObject+MJExtension.h */,
+				E4B211F21E1CC9D600EAF7CB /* RLMObject+MJExtension.m */,
+				E419BE9B1E14B01800467023 /* RLMRealm+Help.h */,
+				E419BE9C1E14B01800467023 /* RLMRealm+Help.m */,
+				E431B0DD1E157C1A00C6ED88 /* RLMResults+Help.h */,
+				E431B0DE1E157C1A00C6ED88 /* RLMResults+Help.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 		E4DE95041E13B74D0004929F = {
 			isa = PBXGroup;
 			children = (
+				E4DE95491E13B7C30004929F /* Realm.framework */,
 				E4DE950F1E13B74D0004929F /* RealmDemo */,
 				E4DE95291E13B74D0004929F /* RealmDemoTests */,
 				E4DE95341E13B74D0004929F /* RealmDemoUITests */,
@@ -105,6 +152,8 @@
 				E4DE95141E13B74D0004929F /* AppDelegate.m */,
 				E4DE95161E13B74D0004929F /* ViewController.h */,
 				E4DE95171E13B74D0004929F /* ViewController.m */,
+				E419BE9A1E14AFFB00467023 /* category */,
+				E4DE954F1E13B9DF0004929F /* Model */,
 				E4DE95191E13B74D0004929F /* Main.storyboard */,
 				E4DE951C1E13B74D0004929F /* Assets.xcassets */,
 				E4DE951E1E13B74D0004929F /* LaunchScreen.storyboard */,
@@ -140,6 +189,17 @@
 			path = RealmDemoUITests;
 			sourceTree = "<group>";
 		};
+		E4DE954F1E13B9DF0004929F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4DE95501E13BAB70004929F /* Person.h */,
+				E4DE95511E13BAB70004929F /* Person.m */,
+				E4DE95531E13BD210004929F /* Car.h */,
+				E4DE95541E13BD210004929F /* Car.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +210,7 @@
 				E4DE95091E13B74D0004929F /* Sources */,
 				E4DE950A1E13B74D0004929F /* Frameworks */,
 				E4DE950B1E13B74D0004929F /* Resources */,
+				E4DE954C1E13B7C30004929F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,8 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DE95551E13BD210004929F /* Car.m in Sources */,
 				E4DE95181E13B74D0004929F /* ViewController.m in Sources */,
+				E419BE9D1E14B01800467023 /* RLMRealm+Help.m in Sources */,
+				E4B211F31E1CC9D600EAF7CB /* RLMObject+MJExtension.m in Sources */,
 				E4DE95151E13B74D0004929F /* AppDelegate.m in Sources */,
+				E431B0DF1E157C1A00C6ED88 /* RLMResults+Help.m in Sources */,
+				E4DE95521E13BAB70004929F /* Person.m in Sources */,
 				E4DE95121E13B74D0004929F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +490,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RealmDemo",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RealmDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ray.RealmDemo;
@@ -435,6 +506,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RealmDemo",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RealmDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ray.RealmDemo;
@@ -446,6 +522,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RealmDemo",
+				);
 				INFOPLIST_FILE = RealmDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ray.RealmDemoTests;
@@ -458,6 +538,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RealmDemo",
+				);
 				INFOPLIST_FILE = RealmDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ray.RealmDemoTests;
@@ -507,6 +591,7 @@
 				E4DE953C1E13B74D0004929F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4DE953D1E13B74D0004929F /* Build configuration list for PBXNativeTarget "RealmDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +600,7 @@
 				E4DE953F1E13B74D0004929F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4DE95401E13B74D0004929F /* Build configuration list for PBXNativeTarget "RealmDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +609,7 @@
 				E4DE95421E13B74D0004929F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
